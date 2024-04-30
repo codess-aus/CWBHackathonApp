@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/learningapp.png";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "image of our learning app";
 
 /**
  * Project list
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Cognitive Semantic Search",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Rank courses according to what the user is interested in, grounded in user content.",
+    url: "https://learn.microsoft.com/en-us/azure/architecture/ai-ml/openai/idea/search-and-query-using-openai-service",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Vector Embeddings",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Linking meaningful content and ideas",
+    url: "https://learn.microsoft.com/en-us/azure/ai-services/openai/tutorials/embeddings?tabs=python-new%2Ccommand-line&pivots=programming-language-python",
   },
   {
-    title: "My Resume Site",
+    title: "Chat Avatar",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Human-like avatars to interact with users in a more engaging way.",
+    url: "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/text-to-speech-avatar/what-is-text-to-speech-avatar",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Speaker Recognition",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "AI recognises speaker and interacts with them contextually.",
+    url: "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/speaker-recognition-overview",
   },
 ];
 
