@@ -32,27 +32,28 @@ const imageAltText = "image of our learning app";
 const projectList = [
   {
     title: "Cognitive Semantic Search",
-    description:
-      "Rank courses according to what the user is interested in, grounded in user content.",
+    description: "Rank courses according to what the user is interested in, grounded in user content.",
     url: "https://learn.microsoft.com/en-us/azure/architecture/ai-ml/openai/idea/search-and-query-using-openai-service",
+    image: "https://raw.githubusercontent.com/codess-aus/CWBHackathonApp/main/src/images/semanticsearch.png", // replace with your image URL
   },
   {
     title: "Vector Embeddings",
-    description:
-      "Linking meaningful content and ideas",
+    description: "Linking meaningful content and ideas",
     url: "https://learn.microsoft.com/en-us/azure/ai-services/openai/tutorials/embeddings?tabs=python-new%2Ccommand-line&pivots=programming-language-python",
+    image: "https://raw.githubusercontent.com/codess-aus/CWBHackathonApp/main/src/images/designacharacter.png", // replace with your image URL
   },
   {
     title: "Chat Avatar",
-    description:
-      "Human-like avatars to interact with users in a more engaging way.",
+    description: "Human-like avatars to interact with users in a more engaging way.",
     url: "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/text-to-speech-avatar/what-is-text-to-speech-avatar",
+    image: "https://raw.githubusercontent.com/codess-aus/CWBHackathonApp/main/src/images/character2.png", // replace with your image URL
+    // replace with your image URL
   },
   {
     title: "Speaker Recognition",
-    description:
-      "AI recognises speaker and interacts with them contextually.",
+    description: "AI recognises speaker and interacts with them contextually.",
     url: "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/speaker-recognition-overview",
+    image: "https://raw.githubusercontent.com/codess-aus/CWBHackathonApp/main/src/images/blockchain.png", // replace with your image URL
   },
 ];
 
@@ -73,6 +74,7 @@ const Portfolio = () => {
             <div className="box" key={project.title}>
               <a href={project.url} target="_blank" rel="noopener noreferrer">
                 <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
+                <img src={project.image} alt={project.title} style={{ width: "100%", height: "auto" }} /> {/* Add this line */}
               </a>
               <p className="small">{project.description}</p>
             </div>
@@ -82,5 +84,4 @@ const Portfolio = () => {
     </section>
   );
 };
-
 export default Portfolio;
