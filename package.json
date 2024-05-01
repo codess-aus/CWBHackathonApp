@@ -1,7 +1,7 @@
 {
   "name": "CWB Hackathon App",
   "version": "1.0.0",
-  "description": "Educator JS Codespace Template",
+  "description": "CWB Hackathon App",
   "source": "src/index.html",
   "homepage": "https://codess-aus.github.io/CWBHackathonApp/",
   "scripts": {
@@ -13,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/microsoft/codespaces-teaching-template-js.git"
+    "url": "git+https://github.com/codess-aus/CWBHackathonApp.git"
   },
   "author": "Microsoft",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/microsoft/codespaces-teaching-template-js/issues"
+    "url": "https://github.com/codess-aus/CWBHackathonApp/issues"
   },
   "dependencies": {
     "react": "^18.2.0",
