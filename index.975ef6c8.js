@@ -28633,7 +28633,10 @@ const Home = ({ name , title  })=>{
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                 className: "background",
                 src: (0, _cwb1PngDefault.default),
-                alt: ""
+                alt: "",
+                style: {
+                    objectFit: "contain"
+                }
             }, void 0, false, {
                 fileName: "src/Components/Home.jsx",
                 lineNumber: 30,
